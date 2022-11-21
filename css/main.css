@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-image: linear-gradient(90deg, orange, #fd8466);
+    height: 100vh;
+    padding: 5vh;
+}
+.header-left{
+    width: 40%;
+    float: left;
+}
+.logo{
+    display: inline-flex;
+}
+.logo img{
+    height: 7vh;
+    display: inline-block;
+}
+.logo h3{
+    font-size: 45px;
+    float: left;
+    line-height: 7vh;
+    padding-left: 20px;
+}
+.brand-text{
+    margin-top: 29vh;
+    height: 30vh;
+    
+}
+.brand-text p{
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 2px dashed black;
+    padding: 10px;
+    display: inline-block;
+}
+.brand-text h1{
+    font-size: 96px;
+    text-shadow: 4px 3px white;
+}
+.brand-text h2{
+    font-size: 64px;
+    text-shadow: 4px 3px white;
+}
+.header-right{
+    width: 55%;
+    height: 90vh;
+    float: right;
+    overflow: hidden;
+}
+.header-menu{
+    width: 100%;
+    float: right;
+}
+.contact{
+    float: right;
+    width: 100%;
+}
+.contact img{
+    height: 4vh;
+    float: right;
+}
+.contact p{
+    float: right;
+    font-size: 20px;
+    line-height: 4vh;
+    margin-left: 10px;
+}
+.menu{
+    padding-top: 20px;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: right;
+    padding: 10px 0px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.menu ul li a:hover{
+    background-color: blue;
+    color: white;
+    transition-duration: 1s;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.header-image{
+    float: left;
+    height: 80vh;
+    width: 100%;
+    background-image: url("../images/header_burger.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 100%;
+    
+}
+@media only screen and (max-width: 992px) {
+    .header{
+        height: 200vh;
+    }
+    .header-left{
+        width: 100%;
+        height: 100vh;
+        float: left;
+    }
+    .header-right{
+        width: 100%;
+        height: 100vh;
+        float: left;
+    }
+    .menu ul li{
+        width: 100%;
+        float: right;
+    }
+    .header-image{
+        background-position: 0% 0%;
+    }
+}
+
+/* End of Header Section */
+
+/* Start Banner Section */
+.banner{
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+}
+.banner-left{
+    width: 45%;
+    height: 400px;
+    float: left;
+    background-image: url("https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    border-radius: 10px;
+}
+.banner-right{
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+.banner-right-top{
+    width: 100%;
+    height: 175px;
+    background-image: url("https://img.freepik.com/premium-vector/delicious-hamburger-banner-ads-black-background_317396-763.jpg?w=2000");
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+.banner-right-bottom{
+    width: 100%;
+    height: 175px;
+    margin-top: 50px;
+    background-image: url("https://optident.co.uk/app/uploads/2018/08/Burger-Banner-787-x-396.jpg");
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+/* End Banner Section */
+
+/* Start Offer Section */
+.offer{
+    width: 100%;
+    padding: 50px;
+    float: left;
+}
+.offer-top{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.offer-top h3{
+    font-size: 30px;
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    display: inline-block;
+
+}
+.offer-top h1{
+    font-size: 64px;
+    padding: 10px 0px;
+}
+.offer-top p{
+    width: 85%;
+    margin: 0px auto;
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+.offer-bottom{
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+}
+.food{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+}
+.food img{
+    width: 100%;
+    height: 800px;
+}
+.food h3{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.food p{
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.food button{
+    border: none;
+    padding: 20px 40px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 50px;
+    background-color: #d60202;
+}
+
+
+/* End Offer Section */
+
+/* Start Events Section */
+.events{
+    width: 100%;
+    padding: 50px;
+    float: left;
+}
+.events-content{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    box-shadow: 10px 10px 30px #ccc;
+    padding: 25px;
+}
+.events-left{
+    width: 45%;
+    height: 550px;
+    float: left;
+    padding: 25px;
+}
+.events-left h3{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.events-left h1{
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.events-left p{
+    font-size: 24px;
+    text-align: justify;
+    color: #757575;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.events-left ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.events-left ul li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #b4b4b4;
+    margin-right: 10px;
+}
+.events-right{
+    width: 55%;
+    height: 550px;
+    float: right;
+}
+.events-right img{
+    width: 100%;
+    height: 100%;
+}
+/* End Event Section */
+
+/* Start Book Section */
+.book{
+    width: 100%;
+    height: 800px;
+    background-color: #757575;
+    float: left;
+    background-image: url("../images/001.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.client-info{
+    width: 55%;
+    height: 800px;
+    margin: 0px auto;
+    padding-top: 170px;
+}
+.client-info h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.client-info h1{
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.input{
+    width: 44%;
+    margin: 0px 2.90%;
+    height: 70px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px;
+}
+.button{
+    border: none;
+    background-color: #d60202;
+    color: white;
+
+}
+/* End Book Section */
+
+/* Start Footer Section */
+.footer{
+    width: 100%;
+    float: left;
+    padding: 50px;
+
+}
+.footer-container{
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/footer.png");
+    background-size: 100% 100%;
+}
+.footer-col{
+    width: 50%;
+    height: 700px;
+    padding: 50px;
+    padding-top: 170px;
+    float: left;
+}
+.footer-col img{
+    height: 100px;
+}
+.footer-col h3{
+    color: white;
+    line-height: 100px;
+}
+.footer-col p{
+    font-size: 24px;
+    text-align: justify;
+    color: #d6d6d6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
